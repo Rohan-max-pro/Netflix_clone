@@ -291,8 +291,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
+    
 }
 
 .item span {
@@ -480,6 +479,10 @@ footer {
     .hero span:nth-child(3) {
         font-size: 0.7rem;
     }
+    .container {
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+    }
 
     .container-2 {
         width: 100%;
@@ -545,6 +548,8 @@ footer {
 
     .container {
         height: 241px;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
     }
 
     .panels .item {
