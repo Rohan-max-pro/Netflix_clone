@@ -339,6 +339,10 @@ body {
     padding: 22px 16px;
     position: relative;
 
+
+}
+.boxs:hover {
+    cursor: pointer;
 }
 
 .boxs p:first-child {
